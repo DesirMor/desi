@@ -1,0 +1,30 @@
+git remote add origin https://github.com/EggCooperation/Java-POO.git
+
+Para inicializar en forma local: git init
+
+Para unir la librería con el proyecto: git remote add origin (URL DEL PROYECTO A IMPORTAR)
+git remote add origin https://github.com/EggCooperation/Java-POO.git
+
+
+Para validar que esté todo ok: git remote -v
+
+-----------------------------------------------------
+
+git init
+git remote add origin ***URL DE LA WEB GITHUB**
+git remote -v
+Para "empaquetar": git add .
+Para commit: git commit -m "primer commit"
+Para enviar: (-> push)    git push origin master
+
+-----RAMAS
+***Las ramas se pueden crear desde GitHunt o desde el repositorio local
+Desde GitHunt (se carga desde la web)
+- Para ver todas las ramas -> git branch -a
+- Para descargar las ramas -> git fetch
+
+Desde Repositorio local (si existe develop, se crea solo sobre develop)
+- Para cambiar a la rama develop-> git checkout develop
+- Para crear rama -> git branch feature/mercedesurcola/login
+- Para chequear las ramas -> git branch -a
+- Para entrar al rama -> git checkout feature/mercedesurcola/login
